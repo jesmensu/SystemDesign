@@ -1,0 +1,14 @@
+{
+    "BasePayPerHour": {
+        "Handicaped": 10,
+        "MotorCycle": 20,
+        "Small": 30,
+        "Medium": 40,
+        "Large": 50,
+        "EVCharged": 80
+    },
+    "WeekendRatePercent": 20,
+    "PickHourRatePercent": 20,
+    "PickHourStartTime": 17.00,
+    "PickHourEndTime": 21.00
+}
