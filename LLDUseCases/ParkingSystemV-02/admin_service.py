@@ -1,4 +1,4 @@
-from parking_lot_system import ParkingLot
+from parking_lot import ParkingLot
 
 class Admin:
     def __init__(self):
