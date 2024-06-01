@@ -73,7 +73,6 @@
 ## Command Design Pattern
 ## State Design Pattern
     Allows an object to alter its behaviour when its internal state changes.
-## Herman 
 ## Interprete Design Pattern
 ## Command Design Pattern
 ## Template Method Pattern
