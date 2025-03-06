@@ -18,7 +18,7 @@ from math import pi
 #         elif self.shape_type == "circle":
 #             return pi * self.radius**2
 
-# If we want to add another shape square here we have to modify the code 
+# If we want to add another shape square here we have to modify the existing class 
 
 
 # With OCP
