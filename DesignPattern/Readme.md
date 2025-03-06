@@ -1,5 +1,6 @@
-# Creational Design Patterns
-## Singleton Pattern
+# A. Creational Design Patterns
+    Creational design patterns focus on object creation mechanisms, improving flexibility and reusability while hiding complex instantiation logic.
+## 1. Singleton Pattern
     The Singleton design pattern ensures a class has only one instance and provides
     a global access point to it. This means we control object creation and guarantee
     there’s only ever a single instance throughout the application.
@@ -15,18 +16,22 @@
 #### Double checked locking:
     This is thread safe and provide bettern performance than previous solution
 
-## Factory Design pattern
+## 2. Factory Design pattern
     Used to create concrete implementations of a common interface. Used when object creation and business logic we need to keep at one place.
     The Simple Factory pattern, also known as the Static Factory pattern. It encapsulates the object creation logic within a separate factory class.
     Factory Method pattern focuses on creating a single object, allowing subclasses to provide the specific implementation.
     Abstract Factory pattern focuses on creating families of related objects, providing an interface to create multiple related objects.
     Factory Design Pattern creates a single product at a time.
     Abstract Factory Design Pattern creates families of related products.
-## Builder Pattern
-    Builder Method is a Creation Design Pattern which aims to Separate the construction of a complex object from its representation so that the same construction process can create different representations or object.
-    Using the same construction code, we can produce different types and representations of the object easily
-## Cascading Pattern
-## Prototype Pattern
+## 3. Builder Pattern
+    Builder Method is a Creation Design Pattern which aims to construct object using construction and through setter function.Using the same construction code, we can produce different types and representations of the object easily. A separate builder class is used to create the object. The object is not created until the build() method is called. 
+    Constructed object is immutable.
+
+## 4. Cascading Pattern
+    Used to modify an object’s attributes using method chaining, usually within the same class.
+    Similarity with Builder pattern. But Builder class and build() method is not used. Constructed object is mutable.
+
+## 5. Prototype Pattern
      It involves cloning an existing object rather than creating a new one from scratch. This pattern is useful when the construction of a new object is more efficient by copying an existing object.
      The client code retrieves an existing prototype and calls its clone method to create a new object.
      If cloned object requires only a subset of the parameters from the original object, options to handle it within the Prototype Design Pattern:
@@ -40,8 +45,7 @@
     The Prototype Design Pattern promotes code reusability and reduces the complexity of object creation by allowing objects to be cloned from existing prototypes.
 
 
-
-# Structural Design Pattern:
+# B. Structural Design Pattern:
     Combine or arrange different classes and objects to form a complex or bigger structure to solve a particular requirement.
 ## Decorator Pattern
     This pattern helps to add more functionalities to the existing object without changing its structure.
@@ -63,7 +67,7 @@
 ## Flyweight Pattern
 
 
-# Behavioural Design patterns
+# C. Behavioural Design patterns
 ## Strategy Design Pattern
     Helps to define multiple algorithm for the task and we can select any algorithm depending on the situation.
 ## Observer Design Pattern

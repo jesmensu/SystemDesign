@@ -89,11 +89,11 @@ if __name__ == "__main__":
         sedanCarFactory = SedanCarFactory()
         car_parts = sedanCarFactory.build_parts()
         car_parts.build()
-        car_builder = factory.build_car()
+        car_builder = sedanCarFactory.build_car()
         car_builder.assemble(car_parts)
 
         suvCarFactory = SUVCarFactory()
         car_parts = suvCarFactory.build_parts()
         car_parts.build()
-        car_builder = factory.build_car()
+        car_builder = suvCarFactory.build_car()
         car_builder.assemble(car_parts)
